@@ -395,7 +395,7 @@ const Users = (row) => {
     {
       name: 'Enabled',
       selector: (row) => row['accountEnabled'],
-      cell: cellBooleanFormatter({ colourless: true }),
+      cell: cellBooleanFormatter({ colourless: false }),
       sortable: true,
       exportSelector: 'accountEnabled',
       minWidth: '100px',
